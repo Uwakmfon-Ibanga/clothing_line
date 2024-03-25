@@ -1,0 +1,477 @@
+* {
+    padding: 0 ;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+}
+.signup {
+    width: 100%;
+    height: 38px;   
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup a {
+    color: white;
+}
+.signup p :hover{
+    color: gray;
+    text-decoration: wavy;
+}
+nav {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+nav h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+nav .links {
+    width: 321px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+nav .links a {
+    text-decoration: none;
+    color: black;
+}
+nav .links :hover {
+    color: gray;
+    cursor: pointer;
+}
+nav input {
+    border: none;
+    width: 577px;
+    height: 48px;
+    border-radius: 62px;
+    background-color: rgba(240, 240, 240, 1);
+    font-size: larger;
+    text-indent: 1rem;
+}
+nav .imglinks {
+    width: 62px;
+    height: 24px;
+}
+nav .imglinks img {
+    width: 24px;
+    height: 24px;
+}
+.billboard img{
+    /* width: 1440px; */
+    width: 100%;
+    height: 663px;
+    z-index: -1;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 134px;
+}
+.billboard h1 {
+    position: absolute;
+    top: 237px;
+    left: 100px;
+    font-weight: 700; 
+    font-size: 40px;
+    color: rgba(0, 0, 0, 1);
+}
+.billboard .p {
+    width: 545px;
+    height: 33px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 402px;
+    left: 100px;
+}
+.button {
+    height: 52px;
+    border-radius: 62px;
+    padding: 16px 54px 16px 54px;
+    }
+.billboard .button {
+    position: absolute;
+    top: 507px;
+    left: 100px;
+    width: 210px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    border: none;
+}
+.billboard .button:hover {
+    background-color: gray;
+    color: black;
+}
+.billboard .numbers{
+    width: 596px;
+    height: 74px;
+    position: absolute;
+    top: 607px;
+    left: 100px;
+    /* background-color: yellowgreen; */
+}
+.numbers .Unum {
+    width: 596px;
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.Unum h2 {
+    width: 107px;
+    height: 54px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.brands {
+    width: 100%;
+    height: 122px;
+    position: absolute;
+    top: 797px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.versace {
+    width: 166.48px;
+    height: 33.16px;
+}
+.zara {
+    width: 91px;
+    height: 38px;
+
+}
+.gucci {
+    width: 156px;
+    height: 36px;
+}
+.prada {
+    width: 194px;
+    height: 32px;
+}
+.calvin {
+    width: 206.79px;
+    height: 33.35px;
+}
+.arrivals {
+    position: absolute;
+    top: 919px;
+    /* background-color: aqua; */
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head {
+    /* text-align: center; */
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+}
+.arrivals .head {
+    margin: 5% 0 5% 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+.line {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    width: 88%;
+    height: fit-content;
+    border-radius: 20px;
+}
+.cat a {
+    text-decoration: none;
+    color: black;
+}
+.cat .proimg:hover {
+    width: 250px;
+}
+.proimg {
+    width: 245px;
+    height: fit-content;
+}
+/* image with the stars */
+.rating {
+    width: 126.2px;
+    height: 19px;
+    top: 612px;
+    left: 415px;
+    gap: 13px;
+}
+.discount {
+    display: flex;
+    width: 188px;
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+}
+/* .discount h2 {
+    font-size: 20px;
+    text-align: center;
+} */
+.discountprice {
+    display: flex;
+    align-items: center;
+    width: 110px;
+    justify-content: space-between;
+}
+.discountprice h2 {
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration:line-through;
+    font-size: 20px;
+}
+.percentage {
+    width: 58px;
+    border-radius: 62px;
+    padding: 6px 14px 6px 14px;
+    background-color: rgba(255, 51, 51, 0.1);
+    color:rgba(255, 51, 51, 1);
+    text-align: center;
+}
+.arrivals .button {
+    width: 218px;
+    /* border: 10px; */
+    background-color: white; 
+    margin-top: 68px;
+    /* border: red; */
+    border: 1px solid;
+}
+.arrivals .button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    cursor: pointer;
+}
+hr {
+    width: 85%;
+    position: absolute;
+    top: 1624px;
+    left: 100px;
+}
+.browse {
+    width:1061px;
+    padding: 0 64px;
+    height: 866px;
+    position: absolute;
+    margin-top: 1rem;
+    top: 2417px;
+    left: 100px;
+    border-radius: 40px;
+    background-color:rgba(240, 240, 240, 1);
+}
+.browse .head {
+    text-align: center;
+    margin: 70px 0 70px 0;
+}
+.styles {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.styles img {
+    margin: 10px;
+}
+.casual {
+    width: 407px;
+    height: 289px;
+}
+.formal {
+    width: 484px;
+    height: 289px;
+}
+.party {
+    width: 484px;
+    height: 289px;
+}
+.gym {
+    width: 407px;
+    height: 289px;
+}
+.top {
+    position: absolute;
+    top: 1705px;
+    /* background-color: aqua; */
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top .head {
+    margin: 5% 0 5% 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+.top .button {
+    width: 218px;
+    background-color: white;
+    color: black; 
+    margin-top: 68px;
+    border: 1px solid black;
+}
+.top .button:hover {
+    background-color: rgb(212, 212, 212);
+    color: black;
+    cursor: pointer;
+}
+.reviews {
+    position: absolute;
+    top: 3363px;
+    width: 100%;
+    padding: 0 95px 0 95px;
+}
+.reviews .head {
+    text-align: left;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.reviewL {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+}
+.review {
+    display: flex;
+    padding: 0 0 5px 5px;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: yellowgreen; */
+    border-radius: 20px;
+    border: 1px black solid;
+}
+.review img {
+    width: 138.84px;
+    margin: 18px 0 10px 0;
+}
+.review h4 {
+    margin-bottom: 5px;
+}
+.review p {
+    color: rgba(0, 0, 0, 0.6);
+}
+footer {
+    width: 100%;
+    height: 510px;
+    position: absolute;
+    top: 3801px;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.footer p {
+    color:rgba(0, 0, 0, 0.6);
+}
+.subscription {
+    width: 84%;
+    height: 180px;
+    position: absolute;
+    left: 100px;
+    top: -90px;
+    padding: 36px 64px 36px 64px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    color: white;
+}
+.inputs {
+    /* display: block; */
+    width: 349px;
+    height: 108px;
+    /* background-color: aqua; */
+
+}
+.inputs input {
+    width: 349px;
+    height: 48px;
+    border-radius: 62px;
+    border: none;
+    margin-top: 6px;
+    font-size:larger;
+    background-color: white;
+    text-align: center;
+}
+.inputs img {
+    width: 25px;
+    height:25px;
+    position:relative;
+    top: -2.2rem;
+    left: 2rem;
+}
+.credits {
+    width: 100%;
+    height: 499px;
+    top: 1821px;
+    left: -1px;
+    background-color: #F0F0F0;
+}
+.credlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 96%;
+    height: 177px;
+    position: relative;
+    top: 100px;
+    left: 45px;
+    margin-top: 50px;
+}
+.linksec {
+    width: 248;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.linksec p {
+    color: rgba(0, 0, 0, 0.6);
+
+}
+.linksec img {
+    width: 148px;
+    height: 28px;
+}
+.credits hr{
+    color: yellowgreen;
+    width: 1240px;
+    position: relative;
+    top: 180px;
+    left: 20px;
+}
+.adpay {
+    position:relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 35px;
+    /* background-color: aqua; */
+    height: fit-content;
+}
+.adpay p {
+    color: rgba(0, 0, 0, 0.6);
+}
+.adpay img{
+    height: 60px;
+}
